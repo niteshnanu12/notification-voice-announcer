@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notification Announcer</string>
+    <string name="service_name">Notification Announcer Service</string>
+    
+    <!-- Permission Status -->
+    <string name="permission_status_label">Listener Permission Status:</string>
+    <string name="permission_enabled">ENABLED</string>
+    <string name="permission_disabled">DISABLED</string>
+    <string name="enable_permission_button">Grant Notification Permission</string>
+    <string name="permission_warning">This app requires Notification Listener Access to intercept and read incoming notifications. Please grant it in Settings.</string>
+
+    <!-- Settings toggles -->
+    <string name="quiet_hours_title">Quiet Hours</string>
+    <string name="quiet_hours_summary">Mute all voice announcements between 10:00 PM and 7:00 AM</string>
+    <string name="screen_off_title">Announce Screen-Off Only</string>
+    <string name="screen_off_summary">Only read notifications aloud when the screen is turned off</string>
+    <string name="bluetooth_title">Bluetooth/Headset Only</string>
+    <string name="bluetooth_summary">Only read notifications when a Bluetooth or wired headset is connected</string>
+
+    <!-- App list -->
+    <string name="whitelist_title">Select Apps to Announce</string>
+    <string name="search_hint">Search apps…</string>
+</resources>

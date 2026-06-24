@@ -3,7 +3,18 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <!-- Center the content within the 66dp safe zone (approx 21 to 87) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M31,31h46v46h-46z" />
+        android:pathData="M54,25c-8.28,0 -15,6.72 -15,15v17.41c0,1.31 -0.52,2.57 -1.45,3.5l-3.05,3.05c-1.61,1.61 -0.47,4.35 1.8,4.35h35.4c2.27,0 3.41,-2.74 1.8,-4.35l-3.05,-3.05c-0.93,-0.93 -1.45,-2.19 -1.45,-3.5V40C69,31.72 62.28,25 54,25zM54,71c2.21,0 4,-1.79 4,-4h-8C50,69.21 51.79,71 54,71z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M75,40c0,-11.6 -9.4,-21 -21,-21s-21,9.4 -21,21" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M85,40c0,-17.12 -13.88,-31 -31,-31s-31,13.88 -31,31" />
 </vector>

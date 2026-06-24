@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Notification Announcer</string>
-    <string name="service_name">Notification Announcer Service</string>
+    <string name="app_name">VoicePing</string>
+    <string name="service_name">VoicePing Service</string>
     
     <!-- Permission Status -->
     <string name="permission_status_label">Listener Permission Status:</string>

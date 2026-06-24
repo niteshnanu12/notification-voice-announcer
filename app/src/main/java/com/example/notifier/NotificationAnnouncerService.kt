@@ -20,7 +20,7 @@ class NotificationAnnouncerService : NotificationListenerService() {
 
     companion object {
         private const val TAG = "AnnouncerService"
-        private const val DUPLICATE_INTERVAL_MS = 5000L
+        private const val DUPLICATE_INTERVAL_MS = 10000L
         private const val MAX_CACHE_SIZE = 100
     }
 

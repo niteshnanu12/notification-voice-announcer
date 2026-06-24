@@ -28,7 +28,9 @@ object NotificationParser {
             packageName.startsWith("com.whatsapp") -> {
                 if (title.isNullOrBlank() || title.equals("WhatsApp", ignoreCase = true)) {
                     null
-                } else if (text != null && (text.contains("messages from", ignoreCase = true) || text.contains("new message", ignoreCase = true))) {
+                } else if (text != null && (text.contains("messages from", ignoreCase = true) || 
+                                          text.contains("new message", ignoreCase = true) ||
+                                          text.contains("checking for new messages", ignoreCase = true))) {
                     null
                 } else {
                     "WhatsApp message from $title"
@@ -43,7 +45,7 @@ object NotificationParser {
             }
             packageName == "com.google.android.gm" -> {
                 if (!title.isNullOrEmpty()) {
-                    "Email from $title in Gmail"
+                    "Gmail message from $title"
                 } else {
                     "New email in Gmail"
                 }
@@ -61,7 +63,7 @@ object NotificationParser {
                 }
             }
             else -> {
-                "Notification from $appLabel"
+                "$appLabel message from $title"
             }
         }
     }
